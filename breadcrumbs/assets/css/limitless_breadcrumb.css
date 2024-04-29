@@ -1,0 +1,141 @@
+.breadcrumb {
+    padding: 0
+}
+
+.breadcrumb-item {
+    padding: .625rem 0;
+    color: inherit
+}
+
+.breadcrumb-item i {
+    font-size: .75rem
+}
+
+a.breadcrumb-elements-item,
+a.breadcrumb-item {
+    display: inline-block;
+    color: inherit;
+    transition: opacity ease-in-out .15s
+}
+
+@media (prefers-reduced-motion:reduce) {
+
+    a.breadcrumb-elements-item,
+    a.breadcrumb-item {
+        transition: none
+    }
+}
+
+.show>a.breadcrumb-elements-item,
+.show>a.breadcrumb-item,
+a.breadcrumb-elements-item:focus,
+a.breadcrumb-elements-item:hover,
+a.breadcrumb-item:focus,
+a.breadcrumb-item:hover {
+    opacity: .75
+}
+
+.page-header-content>.breadcrumb {
+    padding-top: 0;
+    padding-bottom: 1.25rem
+}
+
+.page-header-content>.breadcrumb:first-child {
+    padding-bottom: 0;
+    padding-top: 1.25rem
+}
+
+.breadcrumb-dash>.breadcrumb-item+.breadcrumb-item:before {
+    content: '\2013\00a0'
+}
+
+.breadcrumb-arrow>.breadcrumb-item+.breadcrumb-item:before {
+    content: '\2192\00a0'
+}
+
+.breadcrumb-arrows>.breadcrumb-item+.breadcrumb-item:before {
+    content: '\00bb\00a0'
+}
+
+.breadcrumb-caret>.breadcrumb-item+.breadcrumb-item:before {
+    content: '\203A\00a0'
+}
+
+.breadcrumb-line {
+    position: relative;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent
+}
+
+.breadcrumb-line:not(.breadcrumb-line-component):first-child {
+    border-top-width: 0
+}
+
+.breadcrumb-line:last-child {
+    margin-bottom: 1.25rem
+}
+
+.page-header-dark .breadcrumb-line:last-child,
+.page-header-light .breadcrumb-line:last-child {
+    margin-bottom: 0
+}
+
+.breadcrumb-line-light {
+    background-color: #fafafa;
+    border-color: #ddd;
+    color: #333
+}
+
+.page-header-light .breadcrumb-line-light:not(.breadcrumb-line-component):last-child {
+    border-bottom-width: 0
+}
+
+.page-header-dark .breadcrumb-line-light:not(.breadcrumb-line-component) {
+    border-top-width: 0
+}
+
+.page-header-dark .breadcrumb-line-light:not(.breadcrumb-line-component):first-child {
+    border-bottom-width: 0
+}
+
+.breadcrumb-line-light.breadcrumb-line-component {
+    border-color: #ddd
+}
+
+.breadcrumb-line-dark {
+    background-color: #273246;
+    border-color: transparent;
+    color: #fff
+}
+
+.page-header-dark .breadcrumb-line-dark:not(.breadcrumb-line-component):last-child {
+    border-bottom-width: 0
+}
+
+.breadcrumb-line-dark .breadcrumb-item.active {
+    color: inherit
+}
+
+.page-header-dark .breadcrumb-line-dark {
+    border-color: rgba(255, 255, 255, .25)
+}
+
+.breadcrumb-line-component {
+    border: 1px solid transparent;
+    border-radius: .1875rem
+}
+
+.page-header .breadcrumb-line-component {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem
+}
+
+.breadcrumb-elements-item {
+    padding: .625rem 0
+}
+
+.breadcrumb-elements-item+.breadcrumb-elements-item {
+    margin-left: 1.25rem
+}

@@ -1,0 +1,271 @@
+a.text-white:not(.btn) {
+    transition: color ease-in-out .15s
+}
+
+@media (prefers-reduced-motion:reduce) {
+    a.text-white:not(.btn) {
+        transition: none
+    }
+}
+
+
+
+a.text-default:not(.btn) {
+    transition: color ease-in-out .15s
+}
+
+@media (prefers-reduced-motion:reduce) {
+    a.text-default:not(.btn) {
+        transition: none
+    }
+}
+
+.btn-lg .letter-icon {
+    height: 1.25003rem
+}
+
+.btn-sm .letter-icon {
+    height: 1.25002rem
+}
+.btn {
+    position: relative
+}
+
+.btn:not(.bg-transparent):not([class*=btn-outline]):not(.btn-light):not(.btn-link):not([class*=alpha-]):not(.fab-menu-btn).active,
+.btn:not(.bg-transparent):not([class*=btn-outline]):not(.btn-light):not(.btn-link):not([class*=alpha-]):not(.fab-menu-btn).focus,
+.btn:not(.bg-transparent):not([class*=btn-outline]):not(.btn-light):not(.btn-link):not([class*=alpha-]):not(.fab-menu-btn):active,
+.btn:not(.bg-transparent):not([class*=btn-outline]):not(.btn-light):not(.btn-link):not([class*=alpha-]):not(.fab-menu-btn):focus,
+.btn:not(.bg-transparent):not([class*=btn-outline]):not(.btn-light):not(.btn-link):not([class*=alpha-]):not(.fab-menu-btn):hover,
+.show>.btn:not(.bg-transparent):not([class*=btn-outline]):not(.btn-light):not(.btn-link):not([class*=alpha-]):not(.fab-menu-btn).dropdown-toggle {
+    box-shadow: 0 0 0 62.5rem rgba(0, 0, 0, .075) inset
+}
+
+.btn:not(.bg-transparent):not([class*=btn-outline]):not(.btn-light):not(.btn-link):not([class*=alpha-]):not(.fab-menu-btn).disabled,
+.btn:not(.bg-transparent):not([class*=btn-outline]):not(.btn-light):not(.btn-link):not([class*=alpha-]):not(.fab-menu-btn):disabled {
+    box-shadow: none
+}
+
+.btn::-moz-focus-inner {
+    border: 0
+}
+
+.btn.disabled,
+.btn:disabled {
+    cursor: default
+}
+
+.btn-light {
+    color: #333;
+    background-color: #fafafa;
+    border-color: #ddd
+}
+
+.btn-light.focus,
+.btn-light:focus,
+.btn-light:hover,
+.btn-light:not([disabled]):not(.disabled).active,
+.btn-light:not([disabled]):not(.disabled):active,
+.show>.btn-light.dropdown-toggle {
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd
+}
+
+.btn-light.disabled,
+.btn-light:disabled {
+    background-color: #fafafa;
+    border-color: #ddd
+}
+
+.btn-outline.disabled,
+.btn-outline:disabled,
+.btn-outline:not(:hover):not(:active):not(.active):not([aria-expanded=true]) {
+    background-color: transparent !important
+}
+
+.btn-outline:not(.disabled):not(:disabled):not([class*=alpha-]):hover,
+.btn-outline:not(.disabled):not(:disabled):not([class*=alpha-]):not([disabled]):not(.disabled).active,
+.btn-outline:not(.disabled):not(:disabled):not([class*=alpha-]):not([disabled]):not(.disabled):active,
+.show>.btn-outline:not(.disabled):not(:disabled):not([class*=alpha-]).dropdown-toggle {
+    color: #fff !important
+}
+
+.btn-outline.bg-white:not(.disabled):not(:disabled):hover,
+.btn-outline.bg-white:not(.disabled):not(:disabled):not([disabled]):not(.disabled).active,
+.btn-outline.bg-white:not(.disabled):not(:disabled):not([disabled]):not(.disabled):active,
+.show>.btn-outline.bg-white:not(.disabled):not(:disabled).dropdown-toggle {
+    color: #333 !important
+}
+
+.show>.btn-link.dropdown-toggle {
+    color: #0a6ebd
+}
+
+.btn-icon {
+    padding-left: .56252rem;
+    padding-right: .56252rem
+}
+
+.btn-icon input[type=checkbox],
+.btn-icon input[type=radio] {
+    display: block
+}
+
+.btn-icon.btn-sm {
+    padding-left: .43752rem;
+    padding-right: .43752rem
+}
+
+.btn-icon.btn-lg {
+    padding-left: .68752rem;
+    padding-right: .68752rem
+}
+
+.btn-float {
+    padding: 1rem;
+    border-radius: .1875rem
+}
+
+.btn-float.btn-link {
+    padding: .8rem
+}
+
+.btn-float i {
+    display: block;
+    top: 0
+}
+
+.btn-float>span {
+    display: block;
+    padding-top: .625rem;
+    margin-bottom: -.40625rem;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.btn.border-2 {
+    padding-top: .375rem;
+    padding-bottom: .375rem
+}
+
+.btn.border-2.btn-lg {
+    padding-top: .5rem;
+    padding-bottom: .5rem
+}
+
+.btn.border-2.btn-sm {
+    padding-top: .25rem;
+    padding-bottom: .25rem
+}
+
+.btn.border-2.btn-icon {
+    padding-left: .50002rem;
+    padding-right: .50002rem
+}
+
+.btn.border-2.btn-icon.btn-lg {
+    padding-left: .62502rem;
+    padding-right: .62502rem
+}
+
+.btn.border-2.btn-icon.btn-sm {
+    padding-left: .37502rem;
+    padding-right: .37502rem
+}
+
+.btn.border-2.btn-float {
+    padding: .9375rem
+}
+
+.btn-labeled>b {
+    position: absolute;
+    top: -1px;
+    background-color: rgba(0, 0, 0, .15);
+    display: block;
+    line-height: 1;
+    padding: .62503rem
+}
+
+.btn-labeled>b>i {
+    top: 0
+}
+
+.btn-labeled.rounded-round>b {
+    border-radius: 100px
+}
+
+.btn-labeled.btn-lg>b {
+    padding: .75003rem
+}
+
+.btn-labeled.btn-sm>b {
+    padding: .50003rem
+}
+
+.btn-labeled-left {
+    padding-left: 3.12506rem
+}
+
+.btn-labeled-left>b {
+    left: -1px;
+    border-top-left-radius: .1875rem;
+    border-bottom-left-radius: .1875rem
+}
+
+.btn-labeled-left.btn-lg {
+    padding-left: 3.50005rem
+}
+
+.btn-labeled-left.btn-lg>b {
+    border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem
+}
+
+.btn-labeled-left.btn-sm {
+    padding-left: 2.75006rem
+}
+
+.btn-labeled-left.btn-sm>b {
+    border-top-left-radius: .125rem;
+    border-bottom-left-radius: .125rem
+}
+
+.btn-labeled-right {
+    padding-right: 3.12506rem
+}
+
+.btn-labeled-right>b {
+    right: -1px;
+    border-top-right-radius: .1875rem;
+    border-bottom-right-radius: .1875rem
+}
+.btn-group>.btn.border-2:not(:first-child) {
+    margin-left: -2px
+}
+
+.btn-group>.btn.border-3:not(:first-child) {
+    margin-left: -3px
+}
+
+.btn-group-justified {
+    display: -ms-flexbox;
+    display: flex
+}
+
+.btn-group-justified .btn,
+.btn-group-justified .btn-group {
+    -ms-flex: 1;
+    flex: 1
+}
+.navbar .btn-group .dropdown-menu-right {
+    right: 0;
+    left: auto
+}
+
+.btn .badge {
+    top: 0
+}
+
+[class*=bg-]:not(.bg-transparent):not(.bg-light):not(.bg-white):not(.btn-outline):not(body) {
+    color: #fff
+}

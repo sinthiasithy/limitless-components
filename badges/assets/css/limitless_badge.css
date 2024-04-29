@@ -1,0 +1,194 @@
+.dropdown-item.active .badge:not(.badge-mark) {
+    background-color: #fff !important;
+    color: #333 !important
+}
+
+.dropdown-item.active .badge-mark[class*=bg-] {
+    background-color: #fff !important;
+    border-color: #fff !important
+}
+
+.dropdown-item.active .badge-mark[class*=border-] {
+    border-color: #fff !important}
+    
+.dropdown-item.disabled>.badge,
+.dropdown-item.disabled>img,
+.dropdown-item:disabled>.badge,
+.dropdown-item:disabled>img {
+    opacity: .8
+}
+.nav-pills .nav-link.active .badge:not(.bg-transparent):not(.bg-light):not(.bg-white) {
+    background-color: #fff;
+    color: #333;
+    transition: all ease-in-out .15s
+}
+
+@media (prefers-reduced-motion:reduce) {
+    .nav-pills .nav-link.active .badge:not(.bg-transparent):not(.bg-light):not(.bg-white) {
+        transition: none
+    }
+}
+.navbar-nav-link.disabled .badge,
+.navbar-nav-link.disabled img {
+    opacity: .5
+}
+
+.navbar-nav-link .badge {
+    position: absolute;
+    top: 0;
+    right: 0
+}
+
+.navbar-nav-link .badge-mark {
+    top: .4375rem;
+    right: .5rem
+}
+.navbar-expand-sm .navbar-nav-link .badge:not(.position-static) {
+    position: static
+}
+.navbar-expand-md .navbar-nav-link .badge:not(.position-static) {
+    position: static
+}
+.navbar-expand-lg .navbar-nav-link .badge:not(.position-static) {
+    position: static
+}
+.navbar-expand-xl .navbar-nav-link .badge:not(.position-static) {
+    position: static
+}
+.navbar-expand .navbar-nav-link .badge:not(.position-static) {
+    position: static
+}
+.navbar-nav .nav-pills .nav-link.active .badge:not(.badge-mark) {
+    background-color: #fff !important;
+    color: #333 !important
+}
+
+.navbar-nav .nav-pills .nav-link.active .badge-mark[class*=bg-] {
+    background-color: #fff !important;
+    border-color: #fff !important
+}
+
+.navbar-nav .nav-pills .nav-link.active .badge-mark[class*=border-] {
+    border-color: #fff !important
+}
+.navbar-lg .navbar-nav-link .badge-mark {
+    top: .5rem;
+    right: .625rem
+}
+.navbar-sm .navbar-nav-link .badge-mark {
+    top: .375rem;
+    right: .4375rem
+}
+.badge.dropdown-toggle:after {
+    font-size: 85%;
+    vertical-align: baseline
+}
+
+.badge-light {
+    background-color: #f5f5f5
+}
+
+.show>a.badge[class*=bg-]:not(.bg-transparent):not(.bg-white):not(.bg-light).dropdown-toggle,
+a.badge[class*=bg-]:not(.bg-transparent):not(.bg-white):not(.bg-light):focus,
+a.badge[class*=bg-]:not(.bg-transparent):not(.bg-white):not(.bg-light):hover {
+    box-shadow: 0 0 0 62.5rem rgba(0, 0, 0, .075) inset
+}
+
+.btn .badge {
+    top: 0
+}
+
+.badge-flat {
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: calc(.3125rem - 1px) calc(.375rem - 1px)
+}
+
+.badge-flat[href]:focus,
+.badge-flat[href]:hover {
+    background-color: transparent;
+    box-shadow: none
+}
+
+.badge-flat.badge-pill {
+    padding-left: calc(.4375rem - 1px);
+    padding-right: calc(.4375rem - 1px)
+}
+
+.badge-striped {
+    padding: .4375rem .5rem;
+    position: relative
+}
+
+.badge-striped:before {
+    content: '';
+    width: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0
+}
+
+.badge-striped-left {
+    padding-left: calc(.375rem + 2px);
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0
+}
+
+.badge-striped-left:before {
+    left: 0;
+    border-left: 2px solid;
+    border-left-color: inherit
+}
+
+.badge-striped-right {
+    padding-right: calc(.375rem + 2px);
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0
+}
+
+.badge-striped-right:before {
+    right: 0;
+    border-right: 2px solid;
+    border-right-color: inherit
+}
+
+.badge-icon {
+    padding: .375rem;
+    line-height: 1
+}
+
+.badge-icon>i {
+    top: 0
+}
+
+.badge-float {
+    position: absolute;
+    right: -.5rem;
+    top: -.5rem
+}
+
+.badge-mark {
+    padding: 0;
+    border: 2px solid;
+    width: .5rem;
+    height: .5rem;
+    border-radius: 100px
+}
+
+.badge-mark:empty {
+    display: inline-block
+}
+
+.list-group-item.active .badge:not(.badge-mark) {
+    background-color: #fff !important;
+    color: #333 !important
+}
+
+.list-group-item.active .badge-mark[class*=bg-] {
+    background-color: #fff !important;
+    border-color: #fff !important
+}
+
+.list-group-item.active .badge-mark[class*=border-] {
+    border-color: #fff !important
+}

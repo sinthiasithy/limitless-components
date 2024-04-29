@@ -1,0 +1,80 @@
+
+.navbar-collapse {
+    margin-left: -1.25rem;
+    margin-right: -1.25rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem
+}
+.navbar-expand-sm.navbar-dark .navbar-collapse {
+    border-top: 1px solid rgba(255, 255, 255, .1)
+}
+
+.navbar-expand-sm.navbar-light .navbar-collapse {
+    border-top: 1px solid #ddd
+}
+.navbar-expand-sm.fixed-bottom .navbar-collapse,
+.navbar-expand-sm.fixed-top .navbar-collapse {
+    max-height: 440px;
+    overflow-y: auto
+}
+.navbar-expand-md.navbar-dark .navbar-collapse {
+    border-top: 1px solid rgba(255, 255, 255, .1)
+}
+
+.navbar-expand-md.navbar-light .navbar-collapse {
+    border-top: 1px solid #ddd
+}
+.navbar-expand-md.fixed-bottom .navbar-collapse,
+.navbar-expand-md.fixed-top .navbar-collapse {
+    max-height: 440px;
+    overflow-y: auto
+}
+.navbar-expand-lg.navbar-dark .navbar-collapse {
+    border-top: 1px solid rgba(255, 255, 255, .1)
+}
+
+.navbar-expand-lg.navbar-light .navbar-collapse {
+    border-top: 1px solid #ddd
+}
+.navbar-expand-lg.fixed-bottom .navbar-collapse,
+.navbar-expand-lg.fixed-top .navbar-collapse {
+    max-height: 440px;
+    overflow-y: auto
+}
+.navbar-expand-xl.navbar-dark .navbar-collapse {
+    border-top: 1px solid rgba(255, 255, 255, .1)
+}
+
+.navbar-expand-xl.navbar-light .navbar-collapse {
+    border-top: 1px solid #ddd
+}
+.navbar-expand-xl.fixed-bottom .navbar-collapse,
+.navbar-expand-xl.fixed-top .navbar-collapse {
+    max-height: 440px;
+    overflow-y: auto
+}
+
+.navbar-expand.navbar-dark .navbar-collapse {
+    border-top: 1px solid rgba(255, 255, 255, .1)
+}
+
+.navbar-expand.navbar-light .navbar-collapse {
+    border-top: 1px solid #ddd
+}
+
+.navbar-expand.fixed-bottom .navbar-collapse,
+.navbar-expand.fixed-top .navbar-collapse {
+    max-height: 440px;
+    overflow-y: auto
+}
+.navbar-nav .nav-pills .nav-link.active,
+.show:not(.navbar-collapse)>.navbar-nav .nav-pills .nav-link {
+    color: #fff
+}
+[data-action=collapse]:after {
+    content: ""
+}
+
+.card-group-control .card-title>a.collapsed:before {
+    content: ""
+}

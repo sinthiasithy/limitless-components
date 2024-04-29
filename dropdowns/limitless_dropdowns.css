@@ -1,0 +1,17 @@
+
+.form-group.row .form-check:not(.dropdown-item) {
+    margin-top: .5rem
+}
+.show>.btn:not(.bg-transparent):not([class*=btn-outline]):not(.btn-light):not(.btn-link):not([class*=alpha-]):not(.fab-menu-btn).dropdown-toggle {
+    box-shadow: 0 0 0 62.5rem rgba(0, 0, 0, .075) inset
+}
+.show>.btn-light.dropdown-toggle {
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd
+}
+.show>.btn-light.dropdown-toggle {
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd
+}
